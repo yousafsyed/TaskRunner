@@ -1,0 +1,11 @@
+*.json
+*.txt
+*.json
+temp
+.idea/*
+.project
+.buildpath
+.settings/*
+.zip
+.settings/
+.venues/*
