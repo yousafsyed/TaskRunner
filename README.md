@@ -6,7 +6,7 @@ The TaskRunner is an opensourse PHP class which helps you to run your scheduled 
 require 'TaskRunner.php';
 $task = new TaskRunner();
 $task->config(array(
-		'syncInterval'=>1, // Interval in hours exmaple run my job every x Hour.
+		'syncInterval'=>1, // Interval in hours. (e.g run my job every x Hour.)
 		'taskName'=>'MyTask' //Unique name of your job.
 ));
 
